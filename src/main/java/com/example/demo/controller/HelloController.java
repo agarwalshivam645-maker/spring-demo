@@ -10,7 +10,7 @@ public class HelloController {
 	
 	@GetMapping("/")
 	public String hello() {
-		return "Spring Boot is Working!";
+		return "Hello from Spring Boot - GitHub Actions";
 	}
 
 }
